@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div#hobby_nav {
+    /* 导航栏的初始位置固定 */
+    position: fixed;
+    width: 0px;
+}
+div#hobby_nav div.sider {
+    display: inline-block;
+    /* 规定两侧都不允许其他元素浮动 */
+    clear: both;
+}
+/* 设置鼠标选择时导航栏出现，离开时隐藏 */
+div#hobby_nav div.sider div.a {
+    position: relative;
+    left: 30px;
+    padding: 10px 30px 10px 60px;
+    margin: 10px;
+    margin-left: -122px;
+    background: #8DC2BC;
+    box-shadow: 8px 0 8px -8px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out 0.1s;
+    -o-transition: all 0.3s ease-in-out 0.1s;
+    -ms-transition: all 0.3s ease-in-out 0.1s;
+    -moz-transition: all 0.3s ease-in-out 0.1s;
+    -webkit-transition: all 0.3s ease-in-out 0.1s;
+}
+div#hobby_nav div.sider div.a:hover {
+    position: relative;
+    left: 100%;
+    margin-left: -70px;
+    background-color: rgba(27, 79, 147,0.5); 
+    box-shadow: 0 -8px 8px -8px rgba(0, 0, 0, 0.5),
+    0 8px 8px -8px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+div#hobby_nav div.sider div.a span {
+    display: inline-block;
+    color: #fff;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    /* 文本内容不换行 */
+    white-space: nowrap;
+    width: 40px;
+    height: 24px;
+    text-align: center;
+}
+/* 设置每个导航栏链接选中时的背景色 */
+div#hobby_nav div.sider div.a span#bg1:hover {
+    background: #539770;
+}
+div#hobby_nav div.sider div.a span#bg2:hover {
+    background: #4B7D74;
+}
+div#hobby_nav div.sider div.a span#bg3:hover {
+    background: #EDD6B4;
+}
+div#hobby_nav div.sider div.a span#bg4:hover {
+    background: #BE7467;
+}
+
+div#contain {
+    width: 100%;
+    height: 2950px;
+    /* 添加一个背景 */
+    background: #948D95 url(../img/mghs.png) no-repeat;
+}
+div#contain div#mgh {
+    /* 设置右下角的背景图片 */
+    float: right;
+    margin-top: -180px;
+}
+
+div#contain div#dz {
+    width: 130px;
+    height: 94px;
+    float: right;
+    margin-top: -30px;
+    padding-top: 80px;;
+    background: url(../img/dz1.png) no-repeat right;
+}
+div#contain div#dz input {
+    height: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 43px;
+    background-color: rgb(216, 189, 170);
+}
+
+div#contain div.list {
+    /* 凝胶布局 */
+    width: 1000px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+}
+div#contain div.list div.recent {
+    height: 200px;
+    width: 900px;
+    /* 垂直居中 */
+    margin: 0 auto;
+    background-color: rgb(205,235,250);
+}
+div#contain div.list div.recommend, div#contain div.list div.my_love{
+    height: 200px;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+div#contain div.list div.recommend {
+    background-color: rgb(20,218,202);
+}
+div#contain div.list div.my_love {
+    background-color: rgb(19,149,181);
+}
+
+img {
+    margin-top: 25px;
+    margin-left: 25px;
+    float: left;
+    /* 设置每个小模块的图片的位置 */
+}
+div#title {
+    width: 100px;
+    height: 23px;
+    font-size: 20px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+div#sing {
+    width: 60px;
+    height: 20px;
+    font-size: 15px;
+    float: left;
+    margin-top: 70px;
+    margin-left: -65px;
+}
+div#jianjie {
+    width: 700px;
+    height: 100px;
+    font-size: 15px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+div#jianjie p {
+    text-align: right;
+}
+
+/* 具体针对某个模块位置进行微调，使得页面更加和谐 */
+div#contain div#a01 div.my_love a img {
+    margin-top: 15px;
+}
+
+div#contain div#a02 div.recent a img {
+    margin-top: 10px;
+}
+div#contain div#a02 div.recent div#sing ,div#contain div#a02 div.my_love div#sing {
+    width: 200px;
+    margin-top: 80px;
+}
+div#contain div#a02 div.recent div#jianjie {
+    margin-top: 20px;
+}
+div#contain div#a02 div.recommend div#jianjie {
+    margin-left: 200px;
+    margin-top: -70px;
+}
+div#contain div#a02 div.my_love div#jianjie {
+    width: 650px;
+    margin-left: 230px;
+    margin-top: -50px;
+}
+
+div#contain div#a03 div.recent div#title {
+    width: 150px;
+}
+div#contain div#a03 div.recommend a img,div#contain div#a03 div.my_love a img {
+    margin-top: 20px;
+}
+div#contain div#a03 div.my_love div#sing {
+    width: 210px;
+}
+div#contain div#a03 div.my_love div#jianjie {
+    margin-top: 20px;
+}
+
+div#contain div#a04 div.recommend a img {
+    margin-top: 40px;
+}
+div#contain div#a04 div.recommend div#sing {
+    width: 160px;
+}
+div#contain div#a04 div.recommend div#jianjie {
+    width: 650px;
+    margin-left: 230px;
+    margin-top: -60px;
+}
+div#contain div#a04 div.my_love a img {
+    margin-top: 18px;
+}
+div#contain div#a04 div.my_love div#title {
+    width: auto;
+}
+div#contain div#a04 div.my_love div#jianjie {
+    margin-top: 30px;
+}

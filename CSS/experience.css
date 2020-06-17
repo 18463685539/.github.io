@@ -1,0 +1,96 @@
+div#contain {
+    height: 1400px;
+}
+
+div#contain div#dz {
+    width: 130px;
+    height: 94px;
+    float: right;
+    margin-top: -30px;
+    padding-top: 80px;;
+    background: url(../img/dz1.png) no-repeat right;
+}
+div#contain div#dz input {
+    height: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 43px;
+    background-color: rgb(216, 189, 170);
+}
+
+div#nav_e {
+    /* 导航栏的边框 */
+    border: 2px solid #5D5C62;
+    /* 导航栏位置固定 */
+    position: fixed;
+    width: 110px;
+    /* 设置导航栏在页面的具体位置 */
+    right: 12%;
+    left: 10px;
+    top: 20%;
+    border-radius: 4px;
+    text-align: center;
+}
+div#nav_e ul {
+    font-size: 17px;
+    margin-left: -43px;
+}
+div#nav_e ul li {
+    padding: 10px;
+    width: 100px;
+    /* 鼠标放在选项上变成一只手的样子 */
+    cursor: pointer;
+    list-style: none;
+}
+div#nav_e ul li a {
+    /* 去掉下划线 */
+    text-decoration: none;
+    color: rgb(21, 68, 102);
+}
+div#nav_e ul li a:hover {
+    color: rgb(217,73,73);
+}
+
+div#contain div#con {
+    width: 1000px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+/* 大于号表示只针对当前的子div */
+div#contain div#con>div {
+    margin-top: 40px;
+    padding-top: 20px;
+    width: 990px;
+    height: 600px;
+    background-color: #B0A39A;
+}
+
+div#contain div#con>div>div {
+    padding-left: 60px;
+}
+div#contain div#con>div>div p.tit {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(46, 85, 212);
+}
+div#contain div#con>div>div p.txt a{
+    text-decoration: none;
+    color: rgb(18, 9, 59);
+}
+div#contain div#con>div>div p.txt a:hover {
+    color: brown;
+}
+div#contain div#con>div>div p.tit span {
+    font-size: 20px;
+    color: crimson;
+}
+
+div#contain div#con>div div#lb {
+    width: 300px;
+    height: 400px;
+    float: right;
+    margin-top: -220px;
+    background: url(../img/lb.png) no-repeat left;
+}

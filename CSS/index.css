@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: SimHei;
+    font-size: 16px;
+}
+
+div#header {
+    height: 70px;
+    /* 背景图片 */
+    background: #557A95 url(../img/logo.png) no-repeat left;
+}
+div#header div#hb {
+    width: 344px;
+    height: 65px;
+    /* 使div可以并排显示 */
+    display: inline-block;
+    margin-left: 430px;
+    background: url(../img/hb.png) no-repeat left;
+}
+div.touch {
+    height: 10px;
+    width: 50px;
+    margin-top: 20px;
+    font-size: large;
+    /* 设置“留言”在页眉部分向右浮动，不需要display就可以并排显示 */
+    float: right;
+    margin-right: 20px;
+}
+div.touch a{
+    display: inline-block;
+    color: white;
+    /* 去掉链接的下划线 */
+    text-decoration: none;
+}
+div.touch a:hover{
+    width: 50px;
+    height: 20px;
+    /* 文本居中显示 */
+    text-align: center;
+    background-color: #B0A39A;
+}
+div#header a img {
+    width: 45px;
+    height: 45px;
+    margin-top: 12px;
+    /* 图片向右浮动 */
+    float: right;
+    margin-right: 20px;
+}
+
+div.inner {
+    /* 设置页面内容的宽度并且设置为凝胶布局 */
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#nav {
+    height: 35px;
+    background-color: #5D5C62;
+}
+div#nav div.inner div#conul {
+    margin-left: -170px;
+}
+div#nav div.inner div#conul ul {
+    /* 去掉黑点 */
+    list-style-type: none;
+    width: 800px;
+    /* 垂直居中 */
+    margin: 0 auto;
+    font-size: 20px;
+}
+div#nav div.inner div#conul ul li {
+    display: inline;
+    margin-left: 90px;
+}
+div#nav div.inner div#conul ul li a {
+    display: inline-block;
+    height: 35px;
+    width: 100px;
+    /* 去掉下划线 */
+    text-decoration: none;
+    /* 文本居中 */
+    text-align: center;
+}
+div#nav div.inner div#conul ul li a:hover {
+    /* 设置链接选中时的背景色 */
+    background-color: rgb(217,73,73);
+}
+div#nav div.inner div#conul ul li a span {
+    color: white;
+    line-height: 35px;
+    /* 字体颜色为白色行间距为35px */
+}
+
+div#contain {
+    height: 465px;
+    background-color: #948D95;
+}
+div#contain div.inner div#cont_txt {
+    width: 480px;
+    height: 440px;
+    /* 设置背景色 */
+    background-color: #B0A39A;
+    /* 向左浮动 */
+    float: left;
+    /* 为该部分加一个上边框 */
+    border-top: 4px solid #557A95;
+    margin-top: 10px;
+    font-size: 15px;
+    /* 设置字体颜色 */
+    color: rgb(37, 51, 23);
+}
+div#contain div.inner div#cont_txt table#table_txt {
+    height: 380px;
+    margin-top: 20px;
+}
+div#contain div.inner div#cont_txt table#table_txt tr#row {
+    height: 20px;
+}
+div#contain div.inner div#cont_txt table#table_txt tr#row td#cell_1 {
+    width: 20px;;
+}
+
+div#contain div.inner div#my_image {
+    width: 480px;
+    height: 440px;
+    background-color: rgb(207, 175, 153);
+    float: left;
+    border-top: 4px solid #557A95;
+    margin-top: 10px;
+}
+
+div#contain div.inner div#my_image div#xk_1 {
+    width: 100px;
+    height: 440px;
+    display: inline-block;
+    margin-left: 12px;
+    /* 设置div的背景图片,不重复,向上对齐 */
+    background: url(../img/xks.png) no-repeat top;
+}
+
+div#contain div.inner div#my_image div#xk_2 {
+    width: 240px;
+    height: 440px;
+    display: inline-block;
+}
+div#contain div.inner div#my_image div#xk_3 {
+    width: 100px;
+    height: 440px;
+    display: inline-block;
+    background: url(../img/xkx.png) no-repeat bottom;
+}
+
+div#contain div.inner div#my_image div#xk_2 img {
+    width: 231px;
+    height: 410px;
+    margin-left: 4px;
+    margin-top: 15px;
+    display: block;
+}
+div#contain div.inner div#my_image img#xks {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: -400px;
+}
+
+div#footer {
+    height: 54px;
+    background-color: #557A95;
+    color: rgb(87, 30, 35);
+}
+div#footer div.inner div#foot {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 26px;
+}

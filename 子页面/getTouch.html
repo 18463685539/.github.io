@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留言</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/getTouch.css">
+</head>
+<body>
+    <div id="header">
+        <div id="hb"></div>
+        <a href="https://www.githubs.cn/" target="_blank">
+            <img src="../img/Github.png" alt="Github">
+         </a>
+    </div>
+    <div id="contain">
+        <div id="bk1">
+            <img src="../img/bk1.png" alt="边框上">
+        </div>
+        <div id="dz">
+            <input class="return_btn" type="button" value="首页" onclick="location.href='../index.html'">
+        </div>
+        <div id="contain_touch">
+            <div id="title"><p>#留言</p></div>
+            <div id="tip">
+                <p>
+                    <span>温馨提示：</span>为了能够更好的留言交流，请务必填写正确可用邮箱，留言回复内容均以邮箱形式发送。
+                </p>
+            </div>
+            <div id="collect_mess">
+                <label for="username">昵称</label>
+                <input type="text" id="username" name="name"><br />
+                <label for="mal">邮箱</label>
+                <input type="email" id="mal" name="email"><br />
+            </div>
+            <div id="comment">
+                <p>您比较喜欢哪一板块？</p>
+                <div id="check">
+                    <input type="radio" name="myhobby" id="hobby" value="1">
+                    <label for="hobby">兴趣爱好</label><br />
+                            
+                    <input type="radio" name="myexperience" id="experience" value="2">
+                    <label for="experience">学习心得</label><br />
+                            
+                    <input type="radio" name="mydescription" id="description" value="3">
+                    <label for="description">个人简介</label><br />
+                </div>
+            </div>
+            <div id="con_txt">
+                <p>您有什么具体的看法可以在此留言。</p>
+                <textarea name="idea" id="comments" cols="128" rows="5"></textarea>
+            </div>
+            <div id="submit">
+                <input class="btn" type="button" value="提交留言">
+            </div>
+        </div>
+        <div id="bk2">
+            <img src="../img/bk2.png" alt="边框下">
+        </div>
+    </div>
+    <div id="footer">
+        <div class="inner">
+            <div id="foot">
+                <span class="txt">如有问题或建议@1741551351@qq.com</span><br />
+                <span>谢谢您的到来</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

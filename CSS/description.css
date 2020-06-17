@@ -1,0 +1,65 @@
+div#contain {
+    height: 1100px;
+}
+
+div#contain div#dz {
+    width: 130px;
+    height: 94px;
+    float: right;
+    margin-top: -30px;
+    padding-top: 80px;;
+    background: url(../img/dz1.png) no-repeat right;
+}
+div#contain div#dz input {
+    height: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 43px;
+    background-color: rgb(216, 189, 170);
+}
+
+div#contain div#con {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    /* 凝胶布局 */
+}
+
+div#contain div#con div#cap {
+    width: 1000px;
+    height: 100px;
+    padding-top: 40px;
+}
+div#contain div#con div#cap img {
+    float: left;
+    /* 照片向左浮动 */
+}
+div#contain div#con div#cap div#yixiang {
+    width: 334px;
+    height: 99px;
+    float: left;
+    text-align: center;
+    margin-left: 250px;
+    /* 设置一个边框背景 */
+    background: url(../img/bk.png) no-repeat left;
+}
+div#contain div#con div#cap div#yixiang p {
+    font-size: 23px;
+    margin-top: 35px;
+    /* 实现文本垂直居中，位于边框的中间 */
+}
+
+div#contain div#con div#table div table caption{
+    /* 每个表格的表头宽度、字体大小固定 */
+    width: 1000px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    /* 下边框 */
+    border-bottom: 2px rgb(128, 67, 67) solid;
+}
+
+div#contain div#con div#table div table {
+    margin-top: 40px;
+    padding-top: 10px;
+}
